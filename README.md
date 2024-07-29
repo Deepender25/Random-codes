@@ -47,6 +47,85 @@ print(a+b+c+d+e)
     1 2 3 4 3 2 1
     1 2 3 4 5 4 3 2 1 '''
     
+'''Q9 A simple algorithm has to be designed to find out whether a student belongs to the Data Science branch or not. The input will be a student's roll number, which is of the form  BR18B0000. Here, BR represents the branch code, 
+   18
+   18 represents the year of joining, B represents the education level and 
+   0000
+   0000 represents the specific identification given to the student of that batch. The branch code for Data Science is DS. Print True if the student belongs to Data Science branch and False  otherwise.'''
+
+n=input("enter your roll number in capital ")
+a='DS'
+
+if a in n[0:2]:
+    print("true")
+else:
+    print("FALSE")
+'''Q10 The police are trying to track a criminal based on the evidence available at a crime site. Their main clue is a vehicle's damaged number plate. Only the string TN07 is visible. The format of the registration number is AA00AA00, where the first two letters are alphabets, next two are numbers, next two are again alphabets followed by two numbers at the end. A number plate is picked from a database of registration numbers and is given to you as input. Your task is to determine if this could belong to the criminal or not. Print True if the number plate contains TN07 and False otherwise.'''
+n=(input("enter the vehicle registration number i AA00AA0000 format "))
+
+if "TN07" in n[0:4]:
+    print("True")
+else:
+    print("False")
+'''Q11 Accept two integers
+a and b
+b as input and print the absolute difference of both the numbers. For example, if 
+a=9,b=8
+a=9,b=8, then the absolute difference is 
+9−8=1
+9−8=1. So, your output should be 1'''
+a=44
+b=int(input("enter b"))
+print(a-b)
+,,,Q12 You are given a string and two non-negative integers as input. The two integers specify the start and end indices of a substring in the given string. Create a new string by replicating the substring a minimum number of times so that the resulting string is longer than the input string. '''
+x=input("Enter the string ")
+a=int(input("enter the starting index of substring "))
+b=int(input("enter the end index of substring "))
+substring=x[a:b]
+c=len(substring)
+d=1
+while len(substring * d) <= len(x)
+d +=1
+print(substring * d)
+'''Q13 The following expression is called a continued fraction: x + 1/(x + 1/(x + 1/(x + 1/(x + 1/x))))
+Accept a positive integer x
+x as input, compute the value of this continued fraction and store the result in a variable named cfrac. We will round off your answer to exactly two decimal places.'''
+x=int(input("Enter value of x"))
+c=x + 1/(x + 1/(x + 1/(x + 1/(x + 1/x))))
+print(c)
+'''Q14 Assume that several IITs start offering online degrees across multiple branches. The email-id of a student is defined as follows:
+branch_degree_year_roll@student.degree.institute.ac.in
+For example, if the email-id is CS_BT_21_7412@student.onlinedegree.gug.ac.in, then this student is from the computer science branch, pursuing a BTech degree from GUG, starting from the year 2021, with 7412 as the roll number. branch, degree and year are codes of length two, while roll and institute are codes of length four. Accept a student's email-id as input and print the following details, one item on each line:
+
+(1) Branch
+(2) Degree
+(3) Year
+(4) Roll number
+(5) Institute'''
+Email=input("Enter your email ")
+Branch = Email[0:2]
+print(Branch)
+Degree = Email[3:5]
+print(Degree)
+Year = Email[6:8]
+print(Year)
+Rollno = Email[9:13]
+print(Rollno)
+Institute = Email[35:38]
+print(Institute)
+'''Q15 Accept two positive integers x and y as input. Print the number of digits in xy.'''
+x=input("Enter the number ")
+y=input("Enter the number ")
+a=len(x)
+b=len(y)
+print(a*b)
+
+
+
+
+
+
+    
 
 
 

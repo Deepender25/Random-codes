@@ -127,7 +127,29 @@ elif x> 0:
     print("x is positive")
 else:
     print("x is equal to zero")
-
+'''Q17 '''
+x= int(input("Enter the number "))
+if x > 0 and x < 10 :
+    print(x+2)
+elif x> 10:
+    print((x*x) + 2)
+else:
+    print(0)
+'''Q18'''
+t= int(input("Enter the T "))
+if t< 0:
+    print("INVALID")
+elif t>=0 and t<=5:
+    print("NIGHT")
+elif t>=6 and t<=11:
+    print("MORNING")
+elif t>=12 and t<=17:
+    print("AFTERNOON")
+elif t>=12 and t<=23:
+    print("EVENING")
+else:
+    print("INVALID")
+'''Q19'''
 
 
 

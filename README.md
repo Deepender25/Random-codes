@@ -150,6 +150,33 @@ elif t>=12 and t<=23:
 else:
     print("INVALID")
 '''Q19'''
+x=int(input("Enter the coordinates of x axis "))
+y=int(input("Enter the coordinates of y axis "))
+if x=0 and y=0:
+    print("origin")
+elif x>0 and y>0:
+    print("first")
+elif x>0 and y<0:
+    print("fourth")
+elif x<0 and y>0:
+    print("second")
+else:
+    print("third")
+'''Q20'''
+x=int(input("Enter the coordinate of x "))
+y=int(input("Enter the coordinate of y "))
+x1=int(input("Enter the coordinate of x1 "))
+y1=int(input("Enter the coordinate of y1 "))
+x2=int(input("Enter the coordinate of x2 "))
+a=x2-x1
+b=x-x1
+c=a/b
+d=y-y1
+e=d*c
+f=y1+e
+
+print(f)
+'''Q21'''
 
 
 

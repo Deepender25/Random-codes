@@ -177,6 +177,17 @@ f=y1+e
 
 print(f)
 '''Q21'''
+s=input("Enter the string ")
+n=len(s)
+if n%2 == 0:
+    if s[n-1] == '.':
+        s=s[ :-1]
+    else:
+        s=s+'.'
+n=int((len(s)-1)/2)
+print(s[n-1:n+2])
+'''Q22'''
+
 
 
 

@@ -187,6 +187,37 @@ if n%2 == 0:
 n=int((len(s)-1)/2)
 print(s[n-1:n+2])
 '''Q22'''
+a=input()
+b=input()
+c=input()
+d=input()
+e=input()
+if (a in b and b in c and c in d and d in e):
+    print("magical")
+else:
+    print("non-magical")
+'''Q23'''
+'''Q24'''
+coins=int(input())
+friend1=int(input())
+friend2=int(input())
+friend3=int(input())
+if friend1!=0 and friend2!=0 and friend3!=0:
+    if (friend1!=friend2) and (friend2!=friend3) and (friend1!=friend3):
+        if friend1+friend2+friend3==coins:
+            print("Fair")
+    else:
+         print("un-fair")
+'''Q25'''
+backlog=int(input())
+cgpa=float(input())
+if backlog <= 5:
+    if cgpa > 6:
+        print("you are selected ")
+        print(5*cgpa)
+    else:
+        print("you are not selected")
+
 
 
 

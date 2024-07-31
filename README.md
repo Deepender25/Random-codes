@@ -217,6 +217,17 @@ if backlog <= 5:
         print(5*cgpa)
     else:
         print("you are not selected")
+    '''Q26'''
+    x=int(input())
+if ((x-1)%4==0):
+    print("Sapphire")
+elif ((x-2)%4==0):
+    print("Peridot")
+elif ((x-3)%4==0):
+    print("Rudy")
+elif ((x-4)%4==0):
+    print("Emerald")
+'''Q27'''
 
 
 
